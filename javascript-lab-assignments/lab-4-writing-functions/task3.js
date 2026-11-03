@@ -1,0 +1,8 @@
+
+// Name: Ayan Ansari, Task 3
+
+function billWithTax(amount, taxRate = 0.18) {
+    return amount + amount * taxRate;
+}
+
+console.log(billWithTax(100));
